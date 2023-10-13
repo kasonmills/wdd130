@@ -1,0 +1,42 @@
+body{
+    margin: 0 auto;
+    max-width: 1280px;
+    background-color: gray;
+}
+
+.desk{
+    width: 300px;
+    border: 10px solid #3f3f3f;
+    margin: 2em;
+    border-radius: 50%;
+}
+
+.logo{
+    width: 300px;
+    border: 10px solid #3f3f3f;
+    margin: 2em;
+    border-radius: 50%;
+}
+
+.picture{
+    width: 300px;
+    border: 10px solid #3f3f3f;
+    margin: 2em;
+    border-radius: 50%;
+}
+
+.images{
+    text-align: center;
+}
+
+/*.gre-div{
+    background-color: darkgray;
+    text-align: center;
+}
+
+.gre-div img{
+    width: 240 px;
+    border: 10 px solid #3f3f3f;
+    margin: 2em;
+    border-radius: 50%;
+}*/
