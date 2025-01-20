@@ -1,4 +1,4 @@
-#content {
+/*#content {
   max-width: 100%;
   margin: 0 auto;
 }
@@ -6,7 +6,7 @@
 nav {
   display: flex;
   justify-content: space-around;
-}
+}*/
 
 nav a {
   text-align: center;
@@ -30,6 +30,7 @@ nav a {
 }
 
 main section {
+  background-color: #e7c24f;
   text-align: center;
 }
 
@@ -45,6 +46,7 @@ body {
   font-size: 22px;
   margin: 0;
   padding: 0;
+  background-color: #e7c24f;
 }
 
 header {
@@ -87,13 +89,13 @@ footer {
   align-items: center;
 }
 
-.home-title {
+/*.home-title {
   color: #a42212;
   font-family: "Rock Salt", "Bradley Hand", sans-serif;
   font-size: 2em;
   margin-top: 50px;
   text-align: center;
-}
+}*/
 
 h4 {
   color: #a42212;
@@ -137,7 +139,7 @@ footer p a:hover {
   text-decoration: underline;
 }
 
-h2 {
+/*h2 {
   margin: 0;
 }
 
@@ -189,6 +191,7 @@ main section img {
 #hero {
   margin-top: -200px;
 }
+
 .hero-box {
   height: 800px;
   grid-column: 1/4;
@@ -268,79 +271,4 @@ main section img {
   footer {
     margin-top: 25px;
   }
-}
-
-/* form styling */
-
-form {
-  /* Center the form on the page */
-  margin: 0 auto;
-  width: 400px;
-  /* Form outline */
-  padding: 1em;
-  border: 1px solid #ccc;
-  border-radius: 1em;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-form li + li {
-  margin-top: 1em;
-}
-
-label {
-  /* Uniform size & alignment */
-  display: inline-block;
-  width: 90px;
-  text-align: right;
-}
-
-input,
-textarea {
-  /* To make sure that all text fields have the same font settings
-       By default, textareas have a monospace font */
-  font: 1em sans-serif;
-
-  /* Uniform text field size */
-  width: 300px;
-  box-sizing: border-box;
-
-  /* Match form field borders */
-  border: 1px solid #999;
-  padding: 0.5rem;
-}
-
-input:focus,
-textarea:focus {
-  /* Additional highlight for focused elements */
-  border-color: #000;
-}
-
-textarea {
-  /* Align multiline text fields with their labels */
-  vertical-align: top;
-
-  /* Provide space to type some text */
-  height: 5em;
-}
-
-.button {
-  /* Align buttons with the text fields */
-  padding-left: 90px; /* same size as the label elements */
-}
-
-button {
-  /* This extra margin represent roughly the same space as the space
-       between the labels and their text fields */
-  margin-left: 0.5em;
-}
-
-#feedback {
-  background-color: antiquewhite;
-  position: absolute;
-  top: 0;
-}
+}*/
