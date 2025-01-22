@@ -72,7 +72,7 @@ nav a:hover {
 }
 
 .msg {
-  background-color: #6f7364;
+  background-color: white;
   line-height: 1.5em;
   padding: 35px;
   grid-column: 6/10;
@@ -81,7 +81,7 @@ nav a:hover {
 }
 
 footer {
-  background-color: #6f7364;
+  background-color: #396e94;
   padding: 25px 50px;
   margin-top: 200px;
   display: flex;
