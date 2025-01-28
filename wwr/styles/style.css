@@ -59,7 +59,7 @@ header {
 }
 
 nav a:hover {
-  background-color: #e7c24f;
+  background-color: white;
 }
 
 .book,
@@ -74,7 +74,7 @@ nav a:hover {
 }
 
 .msg {
-  background-color: #396e94;
+  background-color: white;
   line-height: 1.5em;
   padding: 35px;
   grid-column: 6/10;
