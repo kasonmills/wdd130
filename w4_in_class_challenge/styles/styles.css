@@ -1,0 +1,35 @@
+body {
+    background-color: steelblue;
+}
+
+header {
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-align: center;
+}
+
+nav a:hover {
+    color: black;
+}
+
+main{
+    text-align: center;
+}
+
+p1, p2, p3 {
+    color: white;
+    text-align: center;
+}
+
+ol {
+    color: black;
+    text-align: center;
+}
+
+footer p {
+    color: black;
+    text-align: center;
+}
