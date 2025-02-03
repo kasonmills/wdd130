@@ -1,62 +1,46 @@
 body {
     background-color: steelblue;
-    width: 35%;
+    width: 25%;
     margin: auto;
     text-align: center;
 }
 
-header {
-    text-align: center;
-    font-weight: bold;
-    font-size: 2em;
-}
-
-nav a {
-    color: white;
-    text-align: center;
-}
-
-nav a:hover {
+h1:hover {
     color: black;
 }
 
-main{
-    text-align: center;
-}
-
-h1, h2 {
+main p{
     color: white;
-    text-align: center;
 }
 
-p{
-    font-size: .9em;
-}
-
-p2{
+h1 {
     font-weight: bold;
-    font-size: 1.2em;
-}
-
-p3{
     font-size: 2em;
+    text-align: center;
+    color: white;
 }
 
 ol, li {
     color: black;
     font-weight: bold;
     font-size: 1.1em;
+    text-align: left;
 }
 
 footer{
     color: black;
     text-align: center;
+    font-weight: bold;
 }
 
 img {
     height: 200px;
 }
 
-* {
-    border: 2px yellow;
+.president {
+    font-weight: bold;
+}
+
+.quote {
+    font-size: 2.5em;
 }
