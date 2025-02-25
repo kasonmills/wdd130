@@ -6,6 +6,7 @@
   grid-template-columns: 1fr 1fr;
   justify-items: center;
   gap: 20px;
+  display: inline-grid;
 }
 .red1 { 
   width: 100%; 
