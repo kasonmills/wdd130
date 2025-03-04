@@ -1,0 +1,33 @@
+body{
+    border-radius: 25%;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+h1{
+ color: cornflowerblue;
+}
+
+one, two, three{
+ color: white;
+}
+
+img{
+    width: 100%;
+}
+
+footer{
+    background-color: cornflowerblue;
+}
+
+one{
+    grid-column: 1/2;
+}
+
+two{
+    grid-column: 2/3;
+}
+
+three{
+    grid-column: 3/4;
+}
