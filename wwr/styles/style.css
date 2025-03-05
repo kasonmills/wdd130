@@ -36,13 +36,6 @@ main section {
   text-align: center;
 }
 
-#background {
-  background-color: #e7c24f;
-  height: 725px;
-  grid-column: 1/11;
-  grid-row: 4/9;
-}
-
 body {
   font-family: Raleway, Arial, sans-serif;
   font-size: 22px;
@@ -53,7 +46,7 @@ body {
 
 header {
   background-color: #a42212;
-  opacity: 0.6;
+  opacity: 0.5;
   display: grid;
   grid-template-columns: 150px auto;
 }
@@ -153,7 +146,7 @@ h2 {
 }
 
 .logo {
-  width: 80px;
+  width: 100px;
 }
 
 footer .social img {
@@ -188,7 +181,7 @@ footer .social img {
 
 .card-img:hover {
   opacity: 0.4;
-  transform: scale(1.1);
+  transform: scale(1.2);
 }
 
 main section img {
@@ -203,7 +196,7 @@ main section img {
 
 
 #hero-box {
-  /*height: 800px;*/
+  height: 800px;
   grid-column: 1/4;
   grid-row: 1/3;
   z-index: -1;
@@ -237,6 +230,40 @@ main section img {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   width: 100%;
+}
+
+h2{
+  color: #396e94;
+}
+
+p{
+  font-family: "Rock Salt", "Bradley Hand", sans-serif;
+  font-size: 0.8em;
+  color: white;
+}
+
+.idaho-river, .utah-river, .arizona-river{
+  max-width: 500px;
+}
+
+.rivers-content{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.idaho-river{
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+.utah-river{
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.arizona-river{
+  grid-column: 1/2;
+  grid-row: 3/4;
 }
 
 @media screen and (max-width: 900px) {
