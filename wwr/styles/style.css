@@ -137,6 +137,7 @@ footer p a:hover {
 
 h2 {
   margin: 0;
+  color: #396e94;
 }
 
 #logo_link {
@@ -232,10 +233,6 @@ main section img {
   width: 100%;
 }
 
-h2{
-  color: #396e94;
-}
-
 p{
   font-family: "Rock Salt", "Bradley Hand", sans-serif;
   font-size: 0.8em;
@@ -246,24 +243,25 @@ p{
   max-width: 500px;
 }
 
-.rivers-content{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
 .idaho-river{
-  grid-column: 1/2;
-  grid-row: 1/2;
+  float: left;
 }
 
 .utah-river{
-  grid-column: 2/3;
-  grid-row: 2/3;
+  float: right;
 }
 
 .arizona-river{
-  grid-column: 1/2;
-  grid-row: 3/4;
+  float: left;
+}
+
+#rivers-content{
+  max-width: 80%;
+}
+
+h1{
+  color: #a42212;
+  text-align: center;
 }
 
 @media screen and (max-width: 900px) {
