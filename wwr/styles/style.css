@@ -1,8 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap");
 
+* {
+  box-sizing: border-box 5px black;
+}
+
 #content {
-  max-width: 100%;
+  /*max-width: 100%;*/
+  max-width: 1200px;
   margin: 0 auto;
+  padding: 0 25px;
 }
 
 nav {
@@ -136,7 +142,8 @@ footer p a:hover {
 }
 
 h2 {
-  margin: 0;
+  margin: 0 auto;
+  justify-content: center;
   color: #396e94;
 }
 
@@ -173,7 +180,7 @@ footer .social img {
 }
 
 .card-img {
-  border: 10px solid black;
+  border: 8px solid black;
   transition: transform 0.5s;
   box-shadow: 5px 5px 10px #6f7364;
   /*max-width: 400px; */
@@ -240,7 +247,7 @@ p{
 }
 
 .idaho-river, .utah-river, .arizona-river{
-  max-width: 500px;
+  max-width: 550px;
 }
 
 .idaho-river{
@@ -256,12 +263,25 @@ p{
 }
 
 #rivers-content{
-  max-width: 80%;
+  margin: 0 auto;
+  padding: 0 50px;
 }
 
 h1{
   color: #a42212;
   text-align: center;
+}
+
+#idaho{
+  padding-bottom: 150px;
+}
+
+#utah{
+  padding-bottom: 150px;
+}
+
+#arizona{
+  padding-bottom: 10px;
 }
 
 @media screen and (max-width: 900px) {
