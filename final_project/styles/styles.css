@@ -2,11 +2,12 @@ body{
   max-width: 1400px;
   background-color: #E4FDE1;
   font-family: Raleway, Arial, sans-serif;
+  text-align: center;
 }
 
 nav{
   padding-top: 25px;
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 nav a{
@@ -24,17 +25,24 @@ nav a:hover{
 
 header{
   display: grid;
-  grid-template-columns: 250px auto;
+  grid-template-columns: 125px auto;
+}
+
+h1{
+  font-size: 3em;
+  color:#F45B69;
+  text-decoration: underline;
 }
 
 h2{
   color: #456990;
+  font-size: 2em;
+  text-decoration: underline;
 }
 
 .world-general-information{
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 2fr 1fr;
 }
 
 .political{
@@ -48,5 +56,28 @@ h2{
 }
 
 .neutral{
-  
+  grid-column: 3/4;
+  grid-row: 2/4;
+}
+
+.image-one{
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.image-two{
+  grid-column: 2/3;
+  grid-row: 3/4;
+}
+
+footer{
+  background-color: #F45B69;
+}
+
+.social{
+  float: right;
+}
+
+p{
+  font-size: 1.25em;
 }
