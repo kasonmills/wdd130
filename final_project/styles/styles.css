@@ -43,6 +43,7 @@ h2{
 .world-general-information{
   display: grid;
   grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 400px 350px 350px 350px;
 }
 
 .political{
@@ -63,15 +64,68 @@ h2{
 .image-one{
   grid-column: 2/3;
   grid-row: 2/3;
+  width: 100%;
 }
+
+.flip-box {
+    background-color: transparent;
+    width: 100%;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    grid-column: 2/3;
+    grid-row: 3/4;
+    justify-content: center;
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side */
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
 
 .image-two{
   grid-column: 2/3;
-  grid-row: 3/4;
+  grid-row: 4/5;
+  width: 100%;
 }
 
 footer{
   background-color: #F45B69;
+}
+
+footer p{
+  text-align: center;
 }
 
 .social{
@@ -79,5 +133,10 @@ footer{
 }
 
 p{
+  text-align: left;
   font-size: 1.25em;
+}
+
+img{
+  max-width: 500px;
 }
